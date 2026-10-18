@@ -1,0 +1,7 @@
+layer,commits,fix_commits,fix_ratio
+application,12478,3241,0.2597
+build-test-doc,6078,1391,0.2289
+driver,1276,283,0.2218
+network-protocol,757,211,0.2787
+os-core,746,168,0.2252
+unknown,16,1,0.0625

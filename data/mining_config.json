@@ -1,0 +1,119 @@
+{
+  "default_window_commits": 1200,
+  "per_repo_overrides": {},
+  "repos": {
+    "riot": {
+      "display": "RIOT",
+      "domain": "embedded-OS"
+    },
+    "contiki-ng": {
+      "display": "Contiki-NG",
+      "domain": "embedded-OS"
+    },
+    "openplc_v3": {
+      "display": "OpenPLC_v3",
+      "domain": "PLC-runtime"
+    },
+    "zephyr": {
+      "display": "Zephyr",
+      "domain": "embedded-OS"
+    },
+    "esp8266_ard": {
+      "display": "ESP8266-Arduino",
+      "domain": "embedded-OS"
+    },
+    "freertos": {
+      "display": "FreeRTOS-Kernel",
+      "domain": "RTOS-kernel"
+    },
+    "iotivity": {
+      "display": "IoTivity-Lite",
+      "domain": "IoT-middleware"
+    },
+    "mosquitto": {
+      "display": "Eclipse-Mosquitto",
+      "domain": "industrial-messaging"
+    },
+    "beremiz": {
+      "display": "Beremiz",
+      "domain": "SCADA-runtime"
+    },
+    "pycomm3": {
+      "display": "pycomm3",
+      "domain": "industrial-protocol-client"
+    },
+    "ros2_control": {
+      "display": "ros2_control",
+      "domain": "industrial-robot-control"
+    },
+    "ditto": {
+      "display": "Eclipse-Ditto",
+      "domain": "industrial-IoT-platform"
+    },
+    "hivemq": {
+      "display": "HiveMQ-CE",
+      "domain": "industrial-messaging"
+    },
+    "mainflux": {
+      "display": "Mainflux",
+      "domain": "industrial-IoT-platform"
+    },
+    "tb_gateway": {
+      "display": "ThingsBoard-Gateway",
+      "domain": "industrial-IoT-gateway"
+    },
+    "serial_studio": {
+      "display": "Serial-Studio",
+      "domain": "industrial-HMI"
+    },
+    "node_opcua": {
+      "display": "node-opcua",
+      "domain": "industrial-protocol-stack"
+    },
+    "ua_net": {
+      "display": "UA-.NET",
+      "domain": "industrial-protocol-stack"
+    },
+    "evcc": {
+      "display": "evcc",
+      "domain": "industrial-energy-control"
+    },
+    "emoncms": {
+      "display": "emoncms",
+      "domain": "industrial-energy-monitor"
+    }
+  },
+  "fix_message_regex": [
+    "\\bfix(es|ed|ing)?\\b",
+    "\\bbug\\b",
+    "\\bdefect\\b",
+    "\\berror\\b",
+    "\\bcrash(es|ed|ing)?\\b",
+    "\\bpanic(s|ked)?\\b",
+    "\\bfault\\b",
+    "\\bleak\\b",
+    "\\brace\\b",
+    "\\bdeadlock\\b",
+    "\\boverflow\\b",
+    "\\bunderflow\\b",
+    "\\bhang(s|ing)?\\b",
+    "\\bsegfault\\b",
+    "\\bregression\\b",
+    "\\bworkaround\\b",
+    "\\bpatch\\b",
+    "\\bresolve[sd]?\\b",
+    "\\bcorrect(s|ed|ion)?\\b",
+    "\\bmemory leak\\b",
+    "\\bnull pointer\\b",
+    "\\bdangling\\b",
+    "\\brace condition\\b",
+    "\\bbuffer\\b",
+    "\\bcorrupt",
+    "\\bissue\\s*#\\d+",
+    "\\bcloses?\\s+#\\d+",
+    "\\bfixes?\\s+#\\d+"
+  ],
+  "post_touch_window_days": 90,
+  "n_commits": 21351,
+  "n_fix_commits": 5295
+}

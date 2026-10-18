@@ -1,0 +1,7 @@
+layer,commits,fix_commits,fix_ratio,n_repos,mean_churn_per_fix,median_churn_per_fix,total_code_churn
+application,12478,3241,0.2597,20,370.25,10,156643
+build-test-doc,6078,1391,0.2289,20,494.1,55,185440
+driver,1276,283,0.2218,7,701.3,17,66279
+network-protocol,757,211,0.2787,11,360.49,13,71450
+os-core,746,168,0.2252,10,94.57,9.0,12850
+unknown,16,1,0.0625,6,0.0,0,0

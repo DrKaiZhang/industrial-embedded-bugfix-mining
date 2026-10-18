@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Characterizing Bug-Fix Patterns in Open-Source Industrial Embedded-Software Repositories"
+message: >-
+  If you use this artefact, please cite it using the metadata above.
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Kai
+    affiliation: "Guangdong Communication Polytechnic"
+    orcid: "https://orcid.org/0009-0001-6564-6588"
+keywords:
+  - "empirical software engineering"
+  - "repository mining"
+  - "embedded systems"
+  - "bug-fix patterns"
+license: MIT
+repository-code: "https://github.com/DrKaiZhang/industrial-embedded-bugfix-mining"

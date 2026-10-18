@@ -1,0 +1,705 @@
+{
+ "population": {
+  "n_repositories": 20,
+  "n_commits": 21351,
+  "n_fix_commits": 5295,
+  "fix_share": 0.248,
+  "window_commits": 1200,
+  "n_domains": 14
+ },
+ "rq1_layers": [
+  {
+   "layer": "application",
+   "commits": 12478,
+   "fix_commits": 3241,
+   "fix_ratio": 0.2597,
+   "n_repos": 20,
+   "mean_churn_per_fix": 370.25,
+   "median_churn_per_fix": 10,
+   "total_code_churn": 156643
+  },
+  {
+   "layer": "build-test-doc",
+   "commits": 6078,
+   "fix_commits": 1391,
+   "fix_ratio": 0.2289,
+   "n_repos": 20,
+   "mean_churn_per_fix": 494.1,
+   "median_churn_per_fix": 55,
+   "total_code_churn": 185440
+  },
+  {
+   "layer": "driver",
+   "commits": 1276,
+   "fix_commits": 283,
+   "fix_ratio": 0.2218,
+   "n_repos": 7,
+   "mean_churn_per_fix": 701.3,
+   "median_churn_per_fix": 17,
+   "total_code_churn": 66279
+  },
+  {
+   "layer": "network-protocol",
+   "commits": 757,
+   "fix_commits": 211,
+   "fix_ratio": 0.2787,
+   "n_repos": 11,
+   "mean_churn_per_fix": 360.49,
+   "median_churn_per_fix": 13,
+   "total_code_churn": 71450
+  },
+  {
+   "layer": "os-core",
+   "commits": 746,
+   "fix_commits": 168,
+   "fix_ratio": 0.2252,
+   "n_repos": 10,
+   "mean_churn_per_fix": 94.57,
+   "median_churn_per_fix": 9.0,
+   "total_code_churn": 12850
+  },
+  {
+   "layer": "unknown",
+   "commits": 16,
+   "fix_commits": 1,
+   "fix_ratio": 0.0625,
+   "n_repos": 6,
+   "mean_churn_per_fix": 0.0,
+   "median_churn_per_fix": 0,
+   "total_code_churn": 0
+  }
+ ],
+ "rq1_layer_ratio_spread": {
+  "per_repo_layer_ratio_spread": {
+   "UA-.NET": 0.1646,
+   "Mainflux": 0.2622,
+   "Contiki-NG": 0.1436,
+   "OpenPLC_v3": 0.3108,
+   "FreeRTOS-Kernel": 0.2635,
+   "IoTivity-Lite": 0.151,
+   "RIOT": 0.2171,
+   "emoncms": 0.2243,
+   "Beremiz": 0.3647,
+   "Eclipse-Ditto": 0.6,
+   "ThingsBoard-Gateway": 0.4474,
+   "Zephyr": 0.1209,
+   "Serial-Studio": 0.4521,
+   "evcc": 0.1077
+  },
+  "mean_spread": 0.2736
+ },
+ "rq2_fix_size": [
+  {
+   "group": "domain",
+   "name": "embedded-OS",
+   "n": 800,
+   "median_churn": 10.0,
+   "q1": 4.0,
+   "q3": 36.0,
+   "median_code_churn": 6.0,
+   "median_files": 1.0,
+   "mean_churn": 60.52
+  },
+  {
+   "group": "domain",
+   "name": "RTOS-kernel",
+   "n": 286,
+   "median_churn": 12.0,
+   "q1": 4.0,
+   "q3": 44.75,
+   "median_code_churn": 12.0,
+   "median_files": 1.0,
+   "mean_churn": 187.41
+  },
+  {
+   "group": "domain",
+   "name": "PLC-runtime",
+   "n": 149,
+   "median_churn": 8,
+   "q1": 3,
+   "q3": 23,
+   "median_code_churn": 4,
+   "median_files": 1,
+   "mean_churn": 85.32
+  },
+  {
+   "group": "domain",
+   "name": "SCADA-runtime",
+   "n": 419,
+   "median_churn": 10,
+   "q1": 3.0,
+   "q3": 30.0,
+   "median_code_churn": 6,
+   "median_files": 1,
+   "mean_churn": 56.59
+  },
+  {
+   "group": "domain",
+   "name": "industrial-messaging",
+   "n": 614,
+   "median_churn": 8.0,
+   "q1": 3.0,
+   "q3": 30.0,
+   "median_code_churn": 2.0,
+   "median_files": 1.0,
+   "mean_churn": 74.02
+  },
+  {
+   "group": "domain",
+   "name": "industrial-protocol-stack",
+   "n": 478,
+   "median_churn": 52.5,
+   "q1": 14.0,
+   "q3": 148.25,
+   "median_code_churn": 0.0,
+   "median_files": 2.0,
+   "mean_churn": 1801.98
+  },
+  {
+   "group": "domain",
+   "name": "industrial-IoT-platform",
+   "n": 650,
+   "median_churn": 19.5,
+   "q1": 6.0,
+   "q3": 83.75,
+   "median_code_churn": 0.0,
+   "median_files": 2.0,
+   "mean_churn": 308.45
+  },
+  {
+   "group": "domain",
+   "name": "industrial-HMI",
+   "n": 448,
+   "median_churn": 43.5,
+   "q1": 12.0,
+   "q3": 186.25,
+   "median_code_churn": 14.0,
+   "median_files": 3.0,
+   "mean_churn": 1688.73
+  },
+  {
+   "group": "domain",
+   "name": "IoT-middleware",
+   "n": 318,
+   "median_churn": 22.0,
+   "q1": 4.0,
+   "q3": 117.0,
+   "median_code_churn": 15.0,
+   "median_files": 2.0,
+   "mean_churn": 330.89
+  },
+  {
+   "group": "domain",
+   "name": "industrial-robot-control",
+   "n": 211,
+   "median_churn": 16,
+   "q1": 4.0,
+   "q3": 88.5,
+   "median_code_churn": 12,
+   "median_files": 2,
+   "mean_churn": 83.44
+  },
+  {
+   "group": "domain",
+   "name": "industrial-protocol-client",
+   "n": 139,
+   "median_churn": 13,
+   "q1": 4.0,
+   "q3": 42.0,
+   "median_code_churn": 13,
+   "median_files": 1,
+   "mean_churn": 72.43
+  },
+  {
+   "group": "domain",
+   "name": "industrial-energy-control",
+   "n": 149,
+   "median_churn": 20,
+   "q1": 6,
+   "q3": 56,
+   "median_code_churn": 0,
+   "median_files": 1,
+   "mean_churn": 110.91
+  },
+  {
+   "group": "domain",
+   "name": "industrial-energy-monitor",
+   "n": 215,
+   "median_churn": 9,
+   "q1": 4.0,
+   "q3": 31.5,
+   "median_code_churn": 0,
+   "median_files": 1,
+   "mean_churn": 64.23
+  },
+  {
+   "group": "domain",
+   "name": "industrial-IoT-gateway",
+   "n": 419,
+   "median_churn": 11,
+   "q1": 4.0,
+   "q3": 28.0,
+   "median_code_churn": 10,
+   "median_files": 1,
+   "mean_churn": 29.08
+  },
+  {
+   "group": "layer",
+   "name": "application",
+   "n": 3241,
+   "median_churn": 10,
+   "q1": 4,
+   "q3": 32,
+   "median_code_churn": 3,
+   "median_files": 1,
+   "mean_churn": 370.25
+  },
+  {
+   "group": "layer",
+   "name": "build-test-doc",
+   "n": 1391,
+   "median_churn": 55,
+   "q1": 13.0,
+   "q3": 174.0,
+   "median_code_churn": 0,
+   "median_files": 3,
+   "mean_churn": 494.1
+  },
+  {
+   "group": "layer",
+   "name": "driver",
+   "n": 283,
+   "median_churn": 17,
+   "q1": 4.0,
+   "q3": 78.5,
+   "median_code_churn": 10,
+   "median_files": 1,
+   "mean_churn": 701.3
+  },
+  {
+   "group": "layer",
+   "name": "network-protocol",
+   "n": 211,
+   "median_churn": 13,
+   "q1": 5.0,
+   "q3": 32.5,
+   "median_code_churn": 10,
+   "median_files": 1,
+   "mean_churn": 360.49
+  },
+  {
+   "group": "layer",
+   "name": "os-core",
+   "n": 168,
+   "median_churn": 9.0,
+   "q1": 3.75,
+   "q3": 31.25,
+   "median_code_churn": 5.0,
+   "median_files": 1.0,
+   "mean_churn": 94.57
+  }
+ ],
+ "rq2_tests": {
+  "churn_embedded_vs_ics_platform": {
+   "U": 702800.5,
+   "z": -6.9557,
+   "p": 0.0,
+   "effect_r": -0.1665,
+   "n_x": 800,
+   "n_y": 2108,
+   "cliffs_delta": -0.1665,
+   "median_diff_ci": {
+    "point": -8.0,
+    "lo": -10.0,
+    "hi": -5.0,
+    "n_boot": 2000
+   }
+  },
+  "churn_driver_vs_network": {
+   "U": 27321.5,
+   "z": -1.617,
+   "p": 0.105873,
+   "effect_r": -0.0849,
+   "n_x": 283,
+   "n_y": 211,
+   "cliffs_delta": -0.0849,
+   "note": "x = driver fixes, y = network-protocol fixes; churn over all files; direct output of stats_tools.mannwhitney_u on data/commits.csv. Replaces the retired code_churn_driver_vs_network key: code churn came from mixed CODE_EXT mining batches and is unusable (see manuscript 3.3). The complementary-direction U is 32,391.5 (U_x + U_y = n_x*n_y = 59,713); z, p and Cliff delta are direction-symmetric."
+  }
+ },
+ "rq2_file_spread": {
+  "single_file_share": 0.5199,
+  "multi_file_share": 0.4795,
+  "median_files_overall": 1,
+  "p90_files": 7.0,
+  "p99_files": 47.1200000000008
+ },
+ "rq3_year": [
+  {
+   "year": 2014,
+   "commits": 5,
+   "fix_commits": 0,
+   "fix_ratio": 0.0,
+   "n_repos": 1,
+   "fixes_per_active_project": 0.0
+  },
+  {
+   "year": 2015,
+   "commits": 126,
+   "fix_commits": 19,
+   "fix_ratio": 0.1508,
+   "n_repos": 3,
+   "fixes_per_active_project": 6.333
+  },
+  {
+   "year": 2016,
+   "commits": 194,
+   "fix_commits": 47,
+   "fix_ratio": 0.2423,
+   "n_repos": 3,
+   "fixes_per_active_project": 15.667
+  },
+  {
+   "year": 2017,
+   "commits": 170,
+   "fix_commits": 30,
+   "fix_ratio": 0.1765,
+   "n_repos": 3,
+   "fixes_per_active_project": 10.0
+  },
+  {
+   "year": 2018,
+   "commits": 308,
+   "fix_commits": 72,
+   "fix_ratio": 0.2338,
+   "n_repos": 6,
+   "fixes_per_active_project": 12.0
+  },
+  {
+   "year": 2019,
+   "commits": 877,
+   "fix_commits": 182,
+   "fix_ratio": 0.2075,
+   "n_repos": 10,
+   "fixes_per_active_project": 18.2
+  },
+  {
+   "year": 2020,
+   "commits": 1471,
+   "fix_commits": 307,
+   "fix_ratio": 0.2087,
+   "n_repos": 10,
+   "fixes_per_active_project": 30.7
+  },
+  {
+   "year": 2021,
+   "commits": 2015,
+   "fix_commits": 449,
+   "fix_ratio": 0.2228,
+   "n_repos": 13,
+   "fixes_per_active_project": 34.538
+  },
+  {
+   "year": 2022,
+   "commits": 1276,
+   "fix_commits": 310,
+   "fix_ratio": 0.2429,
+   "n_repos": 13,
+   "fixes_per_active_project": 23.846
+  },
+  {
+   "year": 2023,
+   "commits": 2087,
+   "fix_commits": 519,
+   "fix_ratio": 0.2487,
+   "n_repos": 13,
+   "fixes_per_active_project": 39.923
+  },
+  {
+   "year": 2024,
+   "commits": 2324,
+   "fix_commits": 631,
+   "fix_ratio": 0.2715,
+   "n_repos": 16,
+   "fixes_per_active_project": 39.438
+  },
+  {
+   "year": 2025,
+   "commits": 2734,
+   "fix_commits": 770,
+   "fix_ratio": 0.2816,
+   "n_repos": 15,
+   "fixes_per_active_project": 51.333
+  },
+  {
+   "year": 2026,
+   "commits": 7764,
+   "fix_commits": 1959,
+   "fix_ratio": 0.2523,
+   "n_repos": 17,
+   "fixes_per_active_project": 115.235
+  }
+ ],
+ "rq3_postfix_churn": {
+  "n_fix_commits": 5295,
+  "n_with_post_touch": 3571,
+  "share_with_post_touch": 0.6744,
+  "median_touch_when_present": 5,
+  "note": "a fix commit is flagged when any file it modified is modified again by a later commit within 90 days",
+  "spearman_files_vs_touch": {
+   "rho": 0.3963,
+   "p": 0.0,
+   "n": 5295,
+   "t": 31.3999
+  }
+ },
+ "rq3_stability": {
+  "per_project": [
+   {
+    "project": "FreeRTOS-Kernel",
+    "n_years": 9,
+    "mean_fix_ratio": 0.2517,
+    "sd_fix_ratio": 0.1182,
+    "min_ratio": 0.08,
+    "max_ratio": 0.4727
+   },
+   {
+    "project": "Mainflux",
+    "n_years": 8,
+    "mean_fix_ratio": 0.2271,
+    "sd_fix_ratio": 0.0595,
+    "min_ratio": 0.1324,
+    "max_ratio": 0.2941
+   },
+   {
+    "project": "OpenPLC_v3",
+    "n_years": 7,
+    "mean_fix_ratio": 0.3053,
+    "sd_fix_ratio": 0.0971,
+    "min_ratio": 0.2241,
+    "max_ratio": 0.4615
+   },
+   {
+    "project": "ESP8266-Arduino",
+    "n_years": 7,
+    "mean_fix_ratio": 0.2346,
+    "sd_fix_ratio": 0.0279,
+    "min_ratio": 0.1994,
+    "max_ratio": 0.2727
+   },
+   {
+    "project": "HiveMQ-CE",
+    "n_years": 7,
+    "mean_fix_ratio": 0.134,
+    "sd_fix_ratio": 0.0284,
+    "min_ratio": 0.1125,
+    "max_ratio": 0.2
+   },
+   {
+    "project": "emoncms",
+    "n_years": 6,
+    "mean_fix_ratio": 0.1974,
+    "sd_fix_ratio": 0.0442,
+    "min_ratio": 0.1398,
+    "max_ratio": 0.284
+   },
+   {
+    "project": "Beremiz",
+    "n_years": 6,
+    "mean_fix_ratio": 0.3565,
+    "sd_fix_ratio": 0.0499,
+    "min_ratio": 0.28,
+    "max_ratio": 0.4462
+   },
+   {
+    "project": "ros2_control",
+    "n_years": 6,
+    "mean_fix_ratio": 0.1692,
+    "sd_fix_ratio": 0.0333,
+    "min_ratio": 0.1212,
+    "max_ratio": 0.2188
+   },
+   {
+    "project": "Contiki-NG",
+    "n_years": 5,
+    "mean_fix_ratio": 0.1394,
+    "sd_fix_ratio": 0.0186,
+    "min_ratio": 0.1163,
+    "max_ratio": 0.1719
+   },
+   {
+    "project": "IoTivity-Lite",
+    "n_years": 5,
+    "mean_fix_ratio": 0.2649,
+    "sd_fix_ratio": 0.0457,
+    "min_ratio": 0.2055,
+    "max_ratio": 0.3267
+   },
+   {
+    "project": "pycomm3",
+    "n_years": 4,
+    "mean_fix_ratio": 0.1891,
+    "sd_fix_ratio": 0.0386,
+    "min_ratio": 0.125,
+    "max_ratio": 0.22
+   },
+   {
+    "project": "Eclipse-Mosquitto",
+    "n_years": 4,
+    "mean_fix_ratio": 0.3856,
+    "sd_fix_ratio": 0.021,
+    "min_ratio": 0.3532,
+    "max_ratio": 0.405
+   },
+   {
+    "project": "Eclipse-Ditto",
+    "n_years": 4,
+    "mean_fix_ratio": 0.3078,
+    "sd_fix_ratio": 0.0419,
+    "min_ratio": 0.2642,
+    "max_ratio": 0.3735
+   },
+   {
+    "project": "ThingsBoard-Gateway",
+    "n_years": 3,
+    "mean_fix_ratio": 0.3608,
+    "sd_fix_ratio": 0.0254,
+    "min_ratio": 0.3363,
+    "max_ratio": 0.3958
+   }
+  ],
+  "mean_sd": 0.0464,
+  "n_projects": 14
+ },
+ "rq4_defect_classes": [
+  {
+   "defect_class": "unclassified",
+   "n_fix_commits": 2096,
+   "share": 0.3958,
+   "median_churn": 13.0,
+   "top_layer": "application",
+   "top_layer_share": 0.598,
+   "dominant_domains": "embedded-OS:352;industrial-IoT-platform:249;industrial-messaging:220"
+  },
+  {
+   "defect_class": "generic-corrective",
+   "n_fix_commits": 1217,
+   "share": 0.2298,
+   "median_churn": 18,
+   "top_layer": "application",
+   "top_layer_share": 0.646,
+   "dominant_domains": "industrial-IoT-platform:226;industrial-protocol-stack:147;embedded-OS:139"
+  },
+  {
+   "defect_class": "build-or-config",
+   "n_fix_commits": 721,
+   "share": 0.1362,
+   "median_churn": 12,
+   "top_layer": "application",
+   "top_layer_share": 0.659,
+   "dominant_domains": "industrial-messaging:158;industrial-HMI:124;industrial-IoT-platform:97"
+  },
+  {
+   "defect_class": "protocol-or-wire",
+   "n_fix_commits": 327,
+   "share": 0.0618,
+   "median_churn": 20,
+   "top_layer": "application",
+   "top_layer_share": 0.44,
+   "dominant_domains": "embedded-OS:64;industrial-IoT-gateway:59;industrial-HMI:42"
+  },
+  {
+   "defect_class": "crash-or-hang",
+   "n_fix_commits": 241,
+   "share": 0.0455,
+   "median_churn": 13,
+   "top_layer": "application",
+   "top_layer_share": 0.656,
+   "dominant_domains": "SCADA-runtime:84;embedded-OS:34;industrial-HMI:25"
+  },
+  {
+   "defect_class": "memory-safety",
+   "n_fix_commits": 151,
+   "share": 0.0285,
+   "median_churn": 13,
+   "top_layer": "application",
+   "top_layer_share": 0.49,
+   "dominant_domains": "embedded-OS:47;industrial-messaging:37;industrial-protocol-stack:24"
+  },
+  {
+   "defect_class": "portability",
+   "n_fix_commits": 145,
+   "share": 0.0274,
+   "median_churn": 14,
+   "top_layer": "application",
+   "top_layer_share": 0.676,
+   "dominant_domains": "RTOS-kernel:33;industrial-messaging:22;industrial-HMI:21"
+  },
+  {
+   "defect_class": "resource-handling",
+   "n_fix_commits": 132,
+   "share": 0.0249,
+   "median_churn": 25.0,
+   "top_layer": "application",
+   "top_layer_share": 0.576,
+   "dominant_domains": "industrial-messaging:23;industrial-HMI:20;industrial-protocol-stack:16"
+  },
+  {
+   "defect_class": "numeric-or-conversion",
+   "n_fix_commits": 93,
+   "share": 0.0176,
+   "median_churn": 16,
+   "top_layer": "application",
+   "top_layer_share": 0.71,
+   "dominant_domains": "industrial-IoT-gateway:37;embedded-OS:16;industrial-protocol-stack:12"
+  },
+  {
+   "defect_class": "state-machine",
+   "n_fix_commits": 77,
+   "share": 0.0145,
+   "median_churn": 12,
+   "top_layer": "application",
+   "top_layer_share": 0.753,
+   "dominant_domains": "industrial-messaging:10;embedded-OS:9;IoT-middleware:8"
+  },
+  {
+   "defect_class": "race-or-sync",
+   "n_fix_commits": 75,
+   "share": 0.0142,
+   "median_churn": 34,
+   "top_layer": "application",
+   "top_layer_share": 0.6,
+   "dominant_domains": "embedded-OS:14;RTOS-kernel:10;IoT-middleware:10"
+  },
+  {
+   "defect_class": "regression",
+   "n_fix_commits": 20,
+   "share": 0.0038,
+   "median_churn": 110.5,
+   "top_layer": "build-test-doc",
+   "top_layer_share": 0.6,
+   "dominant_domains": "embedded-OS:9;industrial-IoT-platform:4;industrial-robot-control:2"
+  }
+ ],
+ "rq4_association": {
+  "network_vs_crash": {
+   "p": 1.0,
+   "odds_ratio": 0.9318,
+   "table": [
+    [
+     9,
+     202
+    ],
+    [
+     232,
+     4852
+    ]
+   ]
+  },
+  "note": "Fisher exact test on [[network&crash, network&other], [non-network&crash, non-network&other]]"
+ },
+ "rq4_subsystem_concentration": {
+  "n_subsystems": 174,
+  "top10_share": 0.4466,
+  "top_subsystems": "packages:410;thingsboard_gateway:372;app:338;root:268;src:224;tests:191;.github:165;Modules:159;portable:126;api:112;test:108;webserver:106"
+ }
+}

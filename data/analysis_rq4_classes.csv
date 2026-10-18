@@ -1,0 +1,13 @@
+defect_class,n_fix_commits,share,median_churn,top_layer,top_layer_share,dominant_domains
+unclassified,2096,0.3958,13.0,application,0.598,embedded-OS:352;industrial-IoT-platform:249;industrial-messaging:220
+generic-corrective,1217,0.2298,18,application,0.646,industrial-IoT-platform:226;industrial-protocol-stack:147;embedded-OS:139
+build-or-config,721,0.1362,12,application,0.659,industrial-messaging:158;industrial-HMI:124;industrial-IoT-platform:97
+protocol-or-wire,327,0.0618,20,application,0.44,embedded-OS:64;industrial-IoT-gateway:59;industrial-HMI:42
+crash-or-hang,241,0.0455,13,application,0.656,SCADA-runtime:84;embedded-OS:34;industrial-HMI:25
+memory-safety,151,0.0285,13,application,0.49,embedded-OS:47;industrial-messaging:37;industrial-protocol-stack:24
+portability,145,0.0274,14,application,0.676,RTOS-kernel:33;industrial-messaging:22;industrial-HMI:21
+resource-handling,132,0.0249,25.0,application,0.576,industrial-messaging:23;industrial-HMI:20;industrial-protocol-stack:16
+numeric-or-conversion,93,0.0176,16,application,0.71,industrial-IoT-gateway:37;embedded-OS:16;industrial-protocol-stack:12
+state-machine,77,0.0145,12,application,0.753,industrial-messaging:10;embedded-OS:9;IoT-middleware:8
+race-or-sync,75,0.0142,34,application,0.6,embedded-OS:14;RTOS-kernel:10;IoT-middleware:10
+regression,20,0.0038,110.5,build-test-doc,0.6,embedded-OS:9;industrial-IoT-platform:4;industrial-robot-control:2
