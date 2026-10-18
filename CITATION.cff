@@ -15,3 +15,6 @@ keywords:
   - "bug-fix patterns"
 license: MIT
 repository-code: "https://github.com/DrKaiZhang/industrial-embedded-bugfix-mining"
+version: v1.0.0
+doi: 10.5281/zenodo.23444412
+date-released: "2026-10-18"
